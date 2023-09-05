@@ -16,6 +16,9 @@
   --text: #00b05d;
   --bg-button: #00b05d;
 }
+a {
+  text-decoration: none;
+}
 /* button {
   background: var(--bg-button) !important;
   color: var(--text-color);
@@ -133,4 +136,22 @@ main {
   background-color: white;
   box-shadow: 0px 0px 4px 4px #00b05d;
   transform: translateY(-10px);
+}
+/* outline */
+.accordion-button:not(.collapsed) {
+  font-weight: bold;
+  color: var(--text);
+  background-color: #fdfdfd;
+  border-radius: 10px !important;
+  outline: none !important;
+}
+/* swiper */
+.swiper-pagination-bullet-active {
+    background: var(--bg-color);
+}
+.swiper-slide{
+  transition: all ease 0.4s;
+}
+.swiper-slide:hover{
+  transform: scale(1.1);
 }
