@@ -1,14 +1,7 @@
 /* font-family */
-@font-face {
-  font-family: "vazir";
-  src: url(./assets/font/Vazir.eot) format("eot"),
-    url(./assets/font/Vazir.ttf) format("truetype"),
-    url(./assets/font/Vazir.woff) format("woff"),
-    url(./assets/font/Vazir.woff2) format("woff2");
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@500;600&display=swap");
 * {
-  font-family: "vazir";
+  font-family: "Vazirmatn", sans-serif;
 }
 :root {
   --bg-color: #00b05d;
