@@ -1,10 +1,10 @@
 /* font-family */
 @font-face {
   font-family: "vazir";
-  src: url(/assets/font/Vazir.eot) format("eot"),
-    url(/assets/font/Vazir.ttf) format("truetype"),
-    url(/assets/font/Vazir.woff) format("woff"),
-    url(/assets/font/Vazir.woff2) format("woff2");
+  src: url(./assets/font/Vazir.eot) format("eot"),
+    url(./assets/font/Vazir.ttf) format("truetype"),
+    url(./assets/font/Vazir.woff) format("woff"),
+    url(./assets/font/Vazir.woff2) format("woff2");
 }
 
 * {
