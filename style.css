@@ -147,11 +147,42 @@ main {
 }
 /* swiper */
 .swiper-pagination-bullet-active {
-    background: var(--bg-color);
+  background: var(--bg-color);
 }
-.swiper-slide{
+.swiper-slide {
   transition: all ease 0.4s;
 }
-.swiper-slide:hover{
+.swiper-slide:hover {
+  transform: scale(1.1);
+}
+/* hover footer */
+.footer-hover {
+  transition: all ease 0.4s;
+  border-radius: 50px;
+}
+.footer-hover:hover {
+  background: white;
+  color: var(--text) !important;
+  font-weight: bold;
+}
+/* back to top */
+/* back to top btn */
+.myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 50%;
+  background: var(--bg-color);
+  color: white;
+  transition: all ease 1s;
+}
+.myBtn:hover {
   transform: scale(1.1);
 }
