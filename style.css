@@ -179,14 +179,23 @@ main {
 .myBtn:hover {
   transform: scale(1.1);
 }
-.card{
+.card {
   text-align: center;
-  border-radius:80px;
-  background-color:  #00b05d;
+  border-radius: 80px;
+  background-color: #00b05d;
 }
-.form{
-  border-radius: 40px;
-  border:2px solid gray;
-
-background-color: #00b05d;
+.form {
+  border-radius: 30px;
+  background-color: #00b05d;
+}
+#box-moshaverh {
+  animation: 3s infinite cubic-bezier(0.25, 1, 0.3, 1) wipe-in-left both;
+}
+@keyframes wipe-in-left {
+  from {
+    clip-path: inset(0 0 0 100%);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
 }
