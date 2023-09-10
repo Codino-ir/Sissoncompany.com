@@ -2,6 +2,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@500;600&display=swap");
 * {
   font-family: "Vazirmatn", sans-serif;
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+body::-webkit-scrollbar-track {
+  background: #fdfdfd;
+  box-shadow:  0 0 10px var(--bg-color);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--bg-color);
+  outline: 1px solid white;
+  border-radius: 40px;
 }
 :root {
   --bg-color: #00b05d;
