@@ -179,3 +179,14 @@ main {
 .myBtn:hover {
   transform: scale(1.1);
 }
+.card{
+  text-align: center;
+  border-radius:80px;
+  background-color:  #00b05d;
+}
+.form{
+  border-radius: 40px;
+  border:2px solid gray;
+
+background-color: #00b05d;
+}
